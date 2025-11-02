@@ -1,37 +1,7 @@
-{
-  "name": "dog-walking-platform",
-  "version": "1.0.0",
-  "description": "A platform to connect dog owners with dog walkers",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
-    "client": "cd client && npm start",
-    "server": "nodemon server.js",
-    "build": "cd client && npm run build",
-    "install-all": "npm install && cd client && npm install"
-  },
-  "keywords": [
-    "dog-walking",
-    "platform",
-    "nodejs",
-    "express",
-    "react"
-  ],
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^8.0.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "bcryptjs": "^2.4.3",
-    "jsonwebtoken": "^9.0.2",
-    "express-validator": "^7.0.1",
-    "multer": "^1.4.5-lts.1",
-    "node-geocoder": "^4.2.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.2"
-  }
-}
+cd dog-walking-platform
+git init
+git add .
+git commit -m "Initial commit - PawPals dog walking platform"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git push -u origin main
